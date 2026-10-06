@@ -1,11 +1,11 @@
+import Header from "./partials/Header";
+import Main from "./partials/Main";
 
-function App() {
-
+export default function App() {
   return (
-    <div>
-      <h1>Vite + React</h1>
-    </div>
+    <>
+      <Header />
+      <Main />
+    </>
   );
 }
-
-export default App;
